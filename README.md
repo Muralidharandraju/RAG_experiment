@@ -2,6 +2,7 @@ This is a RAG application used on open source models like Deepseek, LLama and ot
 
 Addressed painpoint: all the available RAG apps are limited to the less than 500 pages. either they get stuck by loading process or others issues. 
 this files address that pain point. this will definitly helps you to process morethan 500 pages and I have tried with the AWS glu pdf document.   
+Advantages is you have control on data. 
 
 Prerequisites:
 You need to install and run ollama locally. 
