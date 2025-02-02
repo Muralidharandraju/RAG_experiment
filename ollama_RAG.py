@@ -48,7 +48,7 @@ def split_text(text):
     return text_splitter.split_text(text)
 
 def index_docs(documents):
-    vector_store.aadd_texts(documents)
+    vector_store.add_texts(documents)
 
 def retrieve_docs(query):
     return vector_store.similarity_search(query)
